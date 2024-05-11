@@ -1,0 +1,69 @@
+{
+    "text,email,url,tel,textarea": {
+        "required": "bool",
+        "name": "string",
+        "defaultValue": "string",
+        "defaultValueAsPlaceholder": "bool",
+        "id": "string",
+        "class": "string"
+    },
+    "number": {
+        "fieldType": "scrolling/slideshow",
+        "required": "bool",
+        "range": {
+            "min": "string",
+            "max": "string"
+        },
+        "name": "string",
+        "defaultValue": "string",
+        "defaultValueAsPlaceholder": "bool",
+        "id": "string",
+        "class": "string"
+    },
+    "date": {
+        "required": "bool",
+        "range": {
+            "min": "date",
+            "max": "date"
+        },
+        "name": "string",
+        "defaultValue": "string",
+        "defaultValueAsPlaceholder": "bool",
+        "id": "string",
+        "class": "string"
+    },
+    "select": {
+        "required": "bool",
+        "name": "string",
+        "id": "string",
+        "class": "string",
+        "options": "string with n\\",
+        "multiple": "bool",
+        "addEmptyValueAsFirst": "bool"
+    },
+    "checkbox": {
+        "required": "bool",
+        "name": "string",
+        "id": "string",
+        "class": "string",
+        "options": "string with n\\",
+        "descriptionBefore": "bool",
+        "showLabels": "bool",
+        "singleChoice": "bool"
+    },
+    "radio": {
+        "name": "string",
+        "id": "string",
+        "class": "string",
+        "options": "string with n\\",
+        "descriptionBefore": "bool",
+        "showLabels": "bool"
+    },
+    "acceptance": {
+        "name": "string",
+        "condition": "string",
+        "required": "bool",
+        "id": "string",
+        "class": "string"
+    }
+}
